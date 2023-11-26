@@ -15,6 +15,11 @@ ipython_config.py
 # custom files
 test_replicate_sp.ipynb
 
+# generated images should not be in version control
+*.png
+*.jpg
+*.jpeg
+
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 
